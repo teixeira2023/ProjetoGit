@@ -2,27 +2,27 @@ criando um commit para a branch criada
 
 
 ******/Documents/GitHub/ProjetoGit (main)
-$ git checkout -b "nova ramificação"
+git checkout -b "nova ramificação"
 fatal: 'nova ramificação' is not a valid branch name 
 ***(provavelmente por causa do espaço no nome)***
 
 ******/Documents/GitHub/ProjetoGit (main)
-$ git checkout -b "nome-da-branch"
+git checkout -b "nome-da-branch"
 Switched to a new branch 'nome-da-branch'
 ***(cria a nova branch e alterna para a nova criada)***
 
 ******/Documents/GitHub/ProjetoGit (nome-da-branch)
-$ git branch -M "new-branch"
+git branch -M "new-branch"
 ***(mudança de nome da branch)***
 
 ******/Documents/GitHub/ProjetoGit (new-branch)
-$ git add .
+git add .
 ***(adiciona os novos arquivos)***
 
 ******/Documents/GitHub/ProjetoGit (new-branch)
-$ git commit -m "new-branch"
+git commit -m "new-branch"
 [new-branch 362e408] new-branch
- Committer: Alan Donizeti Teixeira de Freitas <aldon@niradynamics.se>
+ Committer: Alan 
 Your name and email address were configured automatically based
 on your username and hostname. Please check that they are accurate.
 You can suppress this message by setting them explicitly:
@@ -40,7 +40,7 @@ After doing this, you may fix the identity used for this commit with:
 
 
 ******/Documents/GitHub/ProjetoGit (new-branch)
-$ git push origin new-branch
+git push origin new-branch
 Enumerating objects: 4, done.
 Counting objects: 100% (4/4), done.
 Delta compression using up to 8 threads
